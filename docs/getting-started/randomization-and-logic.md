@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Randomization and Logic
-parent: Setup Guide
+parent: Getting Started
 nav_order: 3
 ---
 
