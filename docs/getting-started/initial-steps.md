@@ -12,8 +12,8 @@ nav_order: 1
    - Use this link (make sure you are signed into your Qualtrics account): [Template study](https://practicalethics.fra1.qualtrics.com/jfe/form/SV_cO6I4XAlvNnQPaK)
 
      > 💡 **When using the template**
-     >  - Check that you are accessing the template study as an editor, **not as a participant**
-     >  - But please do not make any edits to this template, use it as a guide
+     >  - Check that you are accessing the template study as an editor, not as a participant
+     >  - Please do not make any edits to this template, use it as a guide
      >  - This will give you an idea of how your survey should look, and will be a helpful reference as you go through this guide
 
 ## Setting Up Your Project Structure
