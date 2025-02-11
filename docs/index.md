@@ -8,7 +8,7 @@ nav_order: 1
 
 **Welcome to the Experimental Philosophy Lab's Resource Hub!**
 
-> 🌟 **Quick Start**: Setting up a Qualtrics study? Head straight to our [Getting Started Guide](/getting-started) for everything you need!
+> 🌟 **Quick Start**: Setting up a Qualtrics study? Head straight to our [Getting Started Guide] in the tab on the left for everything you need!
 
 ---
 
@@ -37,7 +37,7 @@ This is your one-stop documentation hub for the **Oxford Uehiro Centre's XPhi La
 
 ## 🚀 Ready to Start?
 
-1. Head to the [Getting Started](/getting-started) section
+1. Head to the [Getting Started] section
 2. Follow our setup guides
 3. Use the checklists
 4. Launch your study!
