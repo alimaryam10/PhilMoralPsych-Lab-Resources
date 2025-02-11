@@ -6,11 +6,8 @@ nav_order: 1
 
 # 🧪 XPhi Lab Resources
 
-{: .fs-9 }
-Welcome to the Experimental Philosophy Lab's Resource Hub!
-{: .fs-6 .fw-300 }
+**Welcome to the Experimental Philosophy Lab's Resource Hub!**
 
-{: .warning }
 > 🌟 **Quick Start**: Setting up a Qualtrics study? Head straight to our [Getting Started Guide](/getting-started) for everything you need!
 
 ---
@@ -21,15 +18,22 @@ This is your one-stop documentation hub for the **Oxford Uehiro Centre's XPhi La
 
 ## 📚 What You'll Find Here
 
-{: .highlight }
-> ### 🔬 Study Setup Guides
-> Comprehensive instructions for creating rock-solid experiments
-> 
-> ### 📊 Best Practices
-> Lab-tested tips and tricks for quality research
-> 
-> ### 🛠️ Technical Guides
-> Step-by-step Qualtrics and Prolific setup instructions
+### Study Setup Guides 🔬
+- Comprehensive instructions for creating rock-solid experiments
+- Lab-tested templates and examples
+- Step-by-step setup walkthroughs
+
+### Best Practices 📊
+- Quality control guidelines
+- Survey design principles
+- Data collection standards
+
+### Technical Guides 🛠️
+- Detailed Qualtrics instructions
+- Prolific integration steps
+- Launch checklists
+
+---
 
 ## 🚀 Ready to Start?
 
@@ -38,13 +42,11 @@ This is your one-stop documentation hub for the **Oxford Uehiro Centre's XPhi La
 3. Use the checklists
 4. Launch your study!
 
-{: .note }
 > 💡 **Pro Tip**: Bookmark this site - you'll be coming back often!
 
 ---
 
-{: .info }
-Got questions? Spotted something that needs updating? Contact your lab manager - we're here to help!
+**Got questions? Spotted something that needs updating?**  
+Contact your lab manager - we're here to help!
 
-{: .fs-4 .fw-300 }
-Maintained with 💜 by the Oxford Uehiro XPhi Lab Team
+*Maintained with 💜 by the Oxford Uehiro XPhi Lab Team*
