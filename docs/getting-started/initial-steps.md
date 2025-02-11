@@ -44,10 +44,11 @@ nav_order: 1
      - Any other relevant materials
 
 ## Quick Reference: Naming Convention
+```text
 [Study Topic] [Study Type] [Version Letter]
-│            │            │
-│            │            └── A, B, C for iterations
-│            └── Pilot / Full Experiment
+│             │            │
+│             │            └── A, B, C for iterations
+│             └── Pilot / Full Experiment
 └── Brief description of research topic
 
 Example names:
