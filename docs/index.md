@@ -8,7 +8,7 @@ nav_order: 1
 
 **Welcome to the Experimental Philosophy Lab's Resource Hub!**
 
-> 🌟 **Quick Start**: Setting up a Qualtrics study? Head straight to our [Getting Started Guide] in the tab on the left for everything you need!
+> 🌟 **Quick Start**: Setting up a Qualtrics study? Head straight to our [Getting Started Guide](docs/getting-started/getting-started.html) in the tab on the left for everything you need!
 
 ---
 
