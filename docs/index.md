@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# 🧠 XPhi Lab Resources
+# 🔮 XPhi Lab Resources
 
 **Welcome to the Experimental Philosophy Lab's Resource Hub!**
 
