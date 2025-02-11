@@ -1,1 +1,4 @@
-
+remote_theme: just-the-docs/just-the-docs
+title: XPhi Lab Qualtrics Guide
+description: Documentation for Qualtrics usage in XPhi Lab
+search_enabled: true
