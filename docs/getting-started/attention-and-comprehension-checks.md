@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Attention and Comprehension Checks
-parent: Setup Guide
+parent: getting-started
 nav_order: 4
 ---
 
