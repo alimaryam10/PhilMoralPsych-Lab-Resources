@@ -2,7 +2,7 @@
 layout: default
 title: Attention and Comprehension Checks
 parent: Getting Started
-nav_order: 4
+nav_order: 5
 ---
 
 # Attention and Comprehension Checks 🎯
