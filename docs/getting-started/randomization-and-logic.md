@@ -2,7 +2,7 @@
 layout: default
 title: Randomization and Logic
 parent: Getting Started
-nav_order: 3
+nav_order: 4
 ---
 
 # Randomization and Logic Setup 🎲
