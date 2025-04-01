@@ -4,9 +4,9 @@ title: Home
 nav_order: 1
 ---
 
-# 🔮 XPhi Lab Resources
+# 🔮 Philosophical Moral Psychology Lab Resources
 
-**Welcome to the Experimental Philosophy Lab's Resource Hub!**
+**Welcome to the Philosophical Moral Psychology Lab's Resource Hub!**
 
 > 🌟 **Quick Start**: Setting up a Qualtrics study? Head straight to our [Getting Started Guide](https://alimaryam10.github.io/XPhi-Lab-Resources/getting-started/) in the tab on the left for everything you need!
 
@@ -14,7 +14,7 @@ nav_order: 1
 
 ## 🎯 What's This?
 
-This is your one-stop documentation hub for the **Oxford Uehiro Centre's XPhi Lab**. Whether you're setting up your first study or looking for best practices, we've got you covered!
+This is your one-stop documentation hub for the **Philosophical Moral Psychology Lab**. Whether you're setting up your first study or looking for best practices, we've got you covered!
 
 ## 📚 What You'll Find Here
 
