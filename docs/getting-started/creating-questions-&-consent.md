@@ -14,7 +14,7 @@ nav_order: 3
 > * Group questions into meaningful blocks, considering randomization requirements later on.
 > * After any change you make do not forget to click **PUBLISH** on the top right corner.
 
-* You might benefit from adding a CAPTCHA or other **Bot Checks**
+* You might benefit from adding a CAPTCHA(https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/) or other **Bot Checks**
 * Your **blocks and questions** should have meaningful, short names that use camel case or snake case (Attention_Check, AttentionCheck)
    * This will be helpful when you download your data, since question names will be column names in your data sheet (e.g., Excel).
    * Do not leave spaces or use special characters (other than . or _) in the names since R will have a hard time reading these.
