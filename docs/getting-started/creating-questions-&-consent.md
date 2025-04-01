@@ -16,9 +16,12 @@ nav_order: 3
 
 * You might benefit from adding a [CAPTCHA](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/) or other **Bot Checks**
 * Your **blocks and questions** should have meaningful, short names that use camel case or snake case (Attention_Check, AttentionCheck)
-   * This will be helpful when you download your data, since question names will be column names in your data sheet (e.g., Excel).
-   * Do not leave spaces or use special characters (other than . or _) in the names since R will have a hard time reading these.
-   * You might benefit from creating a document that indexes how each question is labeled on Qualtrics if multiple colleagues are working on the data analysis separately.
+   * Meaningful short names (like Attention_Check) will be helpful when you download your data, since question names will be column names in your data sheet (e.g., Excel).
+   * Do not leave spaces or use special characters (other than . or _) in the names since R will have a hard time reading these[^1].
+   * You might benefit from creating a document that indexes how each question is labeled on Qualtrics if multiple colleagues are working on the data analysis separately[^2].
+ 
+     [^1]: Spaces and special characters are the mortal enemies of R.
+     [^2]: This will rescue you from playing "What on earth is variable XG_45b??" six months from now.
 
 ## Consent Forms Setup
 
@@ -32,3 +35,4 @@ nav_order: 3
 The lab Qualtrics template contains examples of properly formatted questions and consent forms that you can use as a reference when building your study.
 
 📍Simply go to Qualtrics (login using the lab credentials), and navigate to the 'Projects' tab in the menu on the top left (next to the XM logo). From here, you'll find a folder called "Projects and Programs" - click that to find the study templates.
+
