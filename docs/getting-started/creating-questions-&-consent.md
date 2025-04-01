@@ -30,3 +30,5 @@ nav_order: 3
 ## See Template for Examples
 
 The lab Qualtrics template contains examples of properly formatted questions and consent forms that you can use as a reference when building your study.
+
+📍Simply go to Qualtrics (login using the lab credentials), and navigate to the 'Projects' tab in the menu on the top left (next to the XM logo). From here, you'll find a folder called "Projects and Programs" - click that to find the study templates.
