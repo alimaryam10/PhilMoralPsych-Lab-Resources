@@ -49,4 +49,4 @@ This is your one-stop documentation hub for the **Oxford Uehiro Centre's XPhi La
 **Got questions? Spotted something that needs updating?**  
 Contact your lab manager - we're here to help!
 
-*Maintained with 💜 by the Oxford Uehiro XPhi Lab Team*
+*Maintained by the Oxford Uehiro XPhi Lab Team*
