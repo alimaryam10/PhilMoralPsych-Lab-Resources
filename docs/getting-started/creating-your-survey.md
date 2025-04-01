@@ -8,8 +8,10 @@ nav_order: 2
 # Creating Your Survey: The Essentials 
 
 ## 🎯 Quick Tips Before You Start
-- **Always hit PUBLISH** after making changes (yes, every single time - we know it's annoying!)
-- Consider adding a CAPTCHA (because robots shouldn't be filling out our surveys 🤖)
+- **Always hit PUBLISH** after making changes (yes, every single time).
+- Ctrl + z to undo errors does **not work** with Qualtrics, however, you can recover previous versions to undo mistakes.
+- Group questions into meaningful blocks, considering randomization requirements later on.	
+- You might benefit from adding a [CAPTCHA](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/question-types-guide/advanced/captcha-verification/) or other **Bot Checks**.
 
 ## 📋 Naming Your Questions & Blocks
 
