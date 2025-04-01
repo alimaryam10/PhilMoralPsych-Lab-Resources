@@ -23,18 +23,26 @@ nav_order: 1
    - Browse existing folders in Qualtrics
    - A suitable folder might be under your supervisor's name, or course name
    - If no suitable folder exists, create a new one with your name
-   - Use clear, descriptive names (e.g., "Memory_Studies_2025")
-
+   
 2. Name Your Experiment
-   - Use this format: `[Study Name] [Type] [Version]`
+   - Use this format to create a clear name: `[Study Name] [Type] [Version]`
+
+ > 📛 **[Study Name]:**
+ > - Give your study a clear, distinctive name that won't confuse you or other lab members using Qualtrics.
+ > - Descriptive names help everyone identify your project easily (e.g., "Wishes of the dead").
+  
+   > 💡 **[Type] refers to:**
+   > - Pilots: Initial test runs to identify issues before the full study
+   > - Full studies: The complete experiment after pilot testing
+   
+   > 📝 **[Version] refers to:**
+   > - Iterations of the experiment
+   > - Use letters (A, B, C) for different consecutive versions (e.g., Pilot A, Pilot B...)
+   
    - Examples:
      - Pilot: "Biomedical Enhancement Pilot A"
      - Full study: "Bodily Integrity Full Experiment A"
-   
-   > 💡 **Naming Tips**
-   > - Pilots: Use letters (A, B, C) for different versions
-   > - Full studies: Include "Full Experiment" or "Full Study" + version letter
-   > - Keep names consistent within project groups
+
 
 ### Step 2: Google Drive Setup
 1. Create a folder in the Lab's Google Drive
