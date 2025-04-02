@@ -36,16 +36,20 @@ Use either:
 
 ## 🔑 Essential Setup Steps
 
-### 1. Participant Information & Consent
+### 1. Participant Information (PI) & Consent Forms
 
-1. Get the latest versions:
+> 💡 **Critical!** These *must* be added to your survey. **Note** Consent, debrief and demographic questions have been added to the lab's Qualtrics Library. Simply navigate to the library from the tab on the top left and go to 'XPhi Lab'. Remember to check the template to see how to properly set up early exit options.
+> 
+
+
+1. Get the latest forms:
    - Ask your lab manager for current PI form
    - Get the most recent consent form template
    
 2. Set up consent questions:
    - Always enable "Force Response" (we really need these answers!)
-   - Add age verification (18+)
-   - Set up branching logic to exit if:
+   - Add age verification question (18+)
+   - Set up branching logic (see section on randomizetion and logic) to exit if:
      - Participant doesn't consent
      - Participant is under 18
    
