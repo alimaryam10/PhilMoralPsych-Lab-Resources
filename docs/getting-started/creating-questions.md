@@ -17,6 +17,11 @@ nav_order: 3
    * Do not leave spaces or use special characters (other than . or _) in the names since R will have a hard time reading these[^1].
    * You might benefit from creating a document that indexes how each question is labeled on Qualtrics if multiple colleagues are working on the data analysis separately[^2].
  
+🚨**Recode Values**🚨
+* Make sure to check how Qualtrics coded the values/ choices in your question by clicking “recode values”
+* If you forget to do this, always make sure to check what the values were coded as after you download your data set
+
+ 
      [^1]: Spaces and special characters are the mortal enemies of R.
      [^2]: This will rescue you from playing "What on earth is variable XG_45b??" six months from now.
 
