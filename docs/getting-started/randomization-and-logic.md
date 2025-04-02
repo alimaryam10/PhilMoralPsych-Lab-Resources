@@ -7,15 +7,20 @@ nav_order: 4
 
 # Randomization and Logic Setup 🎲
 
-## Setting Up Randomization
-Proper randomization is crucial for your experiment's validity. Here's how to do it step by step:
+>- **What is randomization?**
+>- The randomization function in Qualtrics (or 'randomizer') allows you to randomly present question blocks, embedded data, and other aspects of your survey such as branches.
 
-### Creating Randomized Blocks
-1. Navigate to the "Survey Flow" tab
+## Setting Up Randomization
+Proper randomization is crucial for your experiment's validity. Here's how to do it step by step - but you can find a more detailed guide [here](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/standard-elements/randomizer/):
+
+### Randomizing Question Blocks or Study Conditions
+1. Navigate to the "Survey Flow" tab on Qualtrics
 2. Add a Randomizer element
-3. Select "Evenly Present Elements"
-4. Add your condition blocks under the randomizer
-5. Set presentation numbers:
+![Alt text](path/to/image.jpg)
+
+4. Select "Evenly Present Elements"
+5. Add your condition blocks under the randomizer
+6. Set presentation numbers:
    - For single condition per participant: "Randomly present 1 of the following elements"
    - For multiple conditions: "Randomly present X of the following elements"
 
