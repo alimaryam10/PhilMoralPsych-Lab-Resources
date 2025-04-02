@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Randomization and Logic
+title: Randomization & Branch Logic
 parent: Getting Started
 nav_order: 4
 ---
 
 # Randomization and Logic Setup 🎲
 
->- **What is randomization?**
+> **What is randomization?**
 >- The randomization function in Qualtrics (or 'randomizer') allows you to randomly present question blocks, embedded data, and other aspects of your survey such as branches.
 
 ## Setting Up Randomization
@@ -16,41 +16,23 @@ Proper randomization is crucial for your experiment's validity. Here's how to do
 ### Randomizing Question Blocks or Study Conditions
 1. Navigate to the "Survey Flow" tab on Qualtrics
 2. Add a Randomizer element
-![Alt text](path/to/image.jpg)
-
-4. Select "Evenly Present Elements"
-5. Add your condition blocks under the randomizer
-6. Set presentation numbers:
+3. Select "Evenly Present Elements"
+4. Add your condition blocks under the randomizer
+5. Set presentation numbers:
    - For single condition per participant: "Randomly present 1 of the following elements"
    - For multiple conditions: "Randomly present X of the following elements"
 
 > 🔄 **Remember**: If you add more blocks later, you'll need to update your randomizer numbers!
 
-## Survey Flow Logic
-
-### Setting Up Display Logic
-1. Click the question options menu
-2. Select "Add Display Logic"
-3. Choose your conditions:
-   - Based on previous responses
-   - Based on embedded data
-   - Based on randomizer assignment
-
-### Common Logic Patterns
-✅ Good practices:
-- Use clear, simple conditions
-- Test all logic paths
-- Document complex logic flows
-
-❌ Avoid:
-- Circular logic
-- Overcomplicated conditions
-- Untested logic paths
-
-> 🚨 **Warning**: Always test your logic flow with the Preview tool - what makes sense on paper might not work in practice!
-
 ## Branch Logic
 
+> **What is branch logic?**
+>- Branch logic in your survey flow lets you create different paths for people taking your survey. They work like forks in a road, they let you:
+ - Send people to different questions based on how they answer
+ - Create personalized survey experiences
+ - Skip irrelevant sections automatically
+ - Show special questions only to certain people
+   
 ### Setting Up Branches
 1. Identify branching points
 2. Set up clear conditions
@@ -64,3 +46,4 @@ Proper randomization is crucial for your experiment's validity. Here's how to do
 - Early exit paths
 
 > 💡 **Pro Tip**: Draw out your logic flow on paper first - it helps spot potential issues before building!
+> ❓You can also explore different kinds of logic functions, such as [skip logic](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/skip-logic/) and [display logic](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/display-logic/) to help you design your survey
