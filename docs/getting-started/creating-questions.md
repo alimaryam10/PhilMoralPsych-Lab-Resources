@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating Questions & Consent
+title: Creating Questions
 parent: Getting Started
 nav_order: 3
 ---
