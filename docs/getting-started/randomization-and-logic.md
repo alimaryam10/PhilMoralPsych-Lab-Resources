@@ -46,4 +46,5 @@ Proper randomization is crucial for your experiment's validity. Here's how to do
 - Early exit paths
 
 > 💡 **Pro Tip**: Draw out your logic flow on paper first - it helps spot potential issues before building!
+
 > ❓You can also explore different kinds of logic functions, such as [skip logic](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/skip-logic/) and [display logic](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/display-logic/) to help you design your survey
