@@ -4,12 +4,12 @@ title: Consent Questions
 parent: Getting Started
 nav_order: 4
 ---
+## Consent Setup
+
 > 🚨 **What you need to know**
 > * The consent questions require a **Participant information sheet** and questions regarding age.
 > * You can find this information in the Qualtrics library, under "XPhi Lab"
   
-## Consent Setup
-
 * Start by creating a **question** for the participant information sheet and consent form
   
   > 🚨 **PLEASE NOTE**: The information sheet may need to change for your study (for example, if you submit a new ethics application for it). Please ask your lab manager for the most recent version of the PI form and consent form.
