@@ -4,7 +4,7 @@ title: Consent Questions
 parent: Getting Started
 nav_order: 4
 ---
-## Consent Setup
+# Consent & Participant Information Sheet
 
 > 🚨 **What you need to know**
 > * The consent questions require a **Participant information sheet** and questions regarding age.
