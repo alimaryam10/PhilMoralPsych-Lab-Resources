@@ -14,32 +14,26 @@ nav_order: 1
 
 ## 🎯 What's This?
 
-This is your one-stop documentation hub for the **Philosophical Moral Psychology Lab**. Whether you're setting up your first study or looking for best practices, we've got you covered!
+This is your one-stop documentation hub for the **Philosophical Moral Psychology Lab**, whether you're setting up your first study or looking for best practices,
 
 ## 📚 What You'll Find Here
 
 ### Study Setup Guides 🤔
 - Comprehensive instructions for creating rock-solid experiments
-- Lab-tested templates and examples
 - Step-by-step setup walkthroughs
 
 ### Best Practices 📊
-- Quality control guidelines
-- Survey design principles
-- Data collection standards
-
-### Technical Guides 🛠️
-- Detailed Qualtrics instructions
-- Prolific integration steps
-- Launch checklists
+- Ways to manage the quality of your studies
+- Simple survey design principles
+- Data collection aids
 
 ---
 
 ## 🚀 Ready to Start?
 
 1. Head to the [Getting Started](https://alimaryam10.github.io/PhilMoralPsych-Lab-Resources/getting-started/) section
-2. Follow our setup guides
-3. Use the checklists
+2. Follow our guide
+3. Make your final checks
 4. Launch your study!
 
 > 💡 **Pro Tip**: Bookmark this site - you'll be coming back often!
