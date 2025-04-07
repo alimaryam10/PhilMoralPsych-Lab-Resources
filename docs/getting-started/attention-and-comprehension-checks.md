@@ -57,13 +57,19 @@ Verify understanding of materials:
 
 ## 🚨 Exclusion Policies
 
-If you plan to exclude participants based on these checks, you MUST:
-1. Inform participants beforehand
-2. Follow Prolific's specific guidelines
-3. Use approved check formats
-4. Set up manual approval in Prolific
+If you plan to eliminate people from the study entirely (i.e., not pay them) based on failing attention or comprehension checks , a very specific procedure must be met:
 
-> ⚠️ **Critical**: Review Prolific's rules about participant exclusion before setting up checks that might lead to payment denial!
+**YOU MUST declare this to your participants, BEFORE the experiment begins.**
+
+- You can do this by including a 'Read Carefully' question
+
+- The check MUST be of a specific type and conform to Prolific’s rules, as detailed here.
+
+**Note:** when setting up the study in Prolific, you have to click ‘manually approve’ – rather than ‘automatically approve’– to be able to deny a submission in the first place.
+
+These procedures do not have to be followed if you intend to pay participants who fail checks but simply intend to exclude their data from analyses.
+
+> ⚠️ **Critical**: Please review Prolific rules and regulations regarding participant exclusion (i.e., not accepting submission) where you deny to pay the participants!! (https://researcher-help.prolific.com/en/article/3405a6)
 
 ## Documentation Requirements
 
