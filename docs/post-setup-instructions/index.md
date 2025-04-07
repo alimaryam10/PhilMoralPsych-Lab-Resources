@@ -8,7 +8,8 @@ has_children: true
 # What to do after setting up Qualtrics
 
 This section covers important next steps following your experiment setup:
-- Integrate Qualtrics with Prolific
-- Important final checks for your survey
-- Participant payment information
+- Integrate Qualtrics with Prolific 🚦
+- Important final checks for your survey 🎬
+- Participant payment information 💰
+- Study Preregistration 📑
 
