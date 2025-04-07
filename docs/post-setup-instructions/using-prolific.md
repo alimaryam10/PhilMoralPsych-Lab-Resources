@@ -6,16 +6,17 @@ nav_order: 2
 ---
 
 # Using Prolific
+*Go to [Prolific](www.prolific.com) and log in with your details*
 
-* Check if there is a project folder your experiment belongs to under “Projects”. If not, create a new project folder
-Underneath the folder set up your experiment.
+* Check if there is a project folder 📂 your experiment belongs to under “Projects”.
+  >* If not, create a new project folder for your study.
 * Consider if your experiment should be desktop only (in most cases we would only want participants to use a desktop)
   >* The number of vignettes, whether you show images etc. can all affect this decision.
   >* If you allow mobile phone usage, it might be good to compare participant data who use mobile phones to participants who use desktop to ensure no significant differences.
 
 ## Prolific Links
 * Make sure to add the unique link of your experiment (this would be the distribution link Qualtrics gives you) to Prolific
-* Make sure you copy and paste the redirection URL Prolific gives you as a customized end-of-survey message via Survey Flow in Qualtrics.
+* Make sure you copy and paste the redirection URL Prolific gives you as a **customized end-of-survey message via Survey Flow** in Qualtrics.
 
 ## Collecting Prolific IDs
 *This is required in order to pay participants*
