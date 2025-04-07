@@ -11,3 +11,4 @@ This section covers important next steps following your experiment setup:
 - Integrate Qualtrics with Prolific
 - Important final checks for your survey
 - Participant payment information
+
