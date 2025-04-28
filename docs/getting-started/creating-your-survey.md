@@ -33,7 +33,7 @@ nav_order: 2
      - Participant **doesn't** consent
      - Participant is under 18
    
-   > 🚨 **Critical!** Check the template to see how to properly set up early exit options
+   > 🚨 Check the template to see how to properly set up early exit options (e.g., for non-consenting participants).
 
 ### 2. Organizing Your Questions
 
