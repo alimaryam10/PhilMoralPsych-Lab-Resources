@@ -39,10 +39,10 @@ nav_order: 2
 
 Tips for block organization:
 - Consider how you want the order of your blocks to be
-> - You can group similar questions together, or set up specific blocks to be randomized.
+> You can group similar questions together, or set up specific blocks to be randomized.
 - Use clear block names as they'll show up in your data - refer to the **creating blocks & questions** page for tips.
 
-> 🎭 **The best tip we can give you**: Good organization now means less drama during data analysis later!
+> 🥸 **The best tip we can give you**: Good organization now means less drama during data analysis later!
 
 ## 📝 Remember!
 1. Click PUBLISH after any changes!
