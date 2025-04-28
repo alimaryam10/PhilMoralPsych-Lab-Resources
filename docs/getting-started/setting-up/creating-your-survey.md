@@ -2,7 +2,7 @@
 layout: default
 title: Creating Your Survey
 parent: Getting Started
-nav_order: 2
+nav_order: 1
 ---
 
 # Creating Your Survey: The Essentials 
