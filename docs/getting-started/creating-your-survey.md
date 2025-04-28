@@ -38,17 +38,17 @@ nav_order: 2
 ### 2. Organizing Your Questions
 
 Tips for block organization:
-- Group similar questions together
-- Consider future randomization needs
-- Use clear block names (they'll show up in your data)
+- Consider how you want the order of your blocks to be
+> - You can group similar questions together, or set up specific blocks to be randomized.
+- Use clear block names as they'll show up in your data - refer to the **creating blocks & questions** page for tips.
 
-> 🎭 **Fun fact**: Good organization now means less drama during data analysis later.
+> 🎭 **The best tip we can give you**: Good organization now means less drama during data analysis later!
 
 ## 📝 Remember!
-1. PUBLISH after changes (yes, we're saying it again!)
+1. Click PUBLISH after any changes!
 2. Check the template for examples
-3. No spaces or special characters in names (except `_` and `.`)
+3. Do not put spaces or special characters in names (except `_`)
 4. Force response for consent questions
-5. Test your early exit logic
+5. Test your exit logic (e.g., for non-consenting participants) to ensure that it works
 
 Need help? Don't suffer in silence - ask your lab manager! They've seen every Qualtrics quirk in the book (challenge: you could surprise them with a new one 🏆) 
