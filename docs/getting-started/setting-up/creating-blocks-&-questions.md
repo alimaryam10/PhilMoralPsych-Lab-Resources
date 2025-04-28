@@ -2,7 +2,7 @@
 layout: default
 title: Creating Questions
 parent: Getting Started
-nav_order: 3
+nav_order: 2
 ---
 
 # Creating Blocks & Questions
