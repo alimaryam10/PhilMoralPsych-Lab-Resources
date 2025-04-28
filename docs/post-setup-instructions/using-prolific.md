@@ -5,7 +5,8 @@ parent: Post Setup Instructions
 nav_order: 2
 ---
 
-‼️ ***This section is for post-grad students, and others running the surveys on Prolific themselves.***
+‼️ ***This section is for post-grad students, and others running the surveys on Prolific themselves. 
+If you are an undergrad, your PI or lab manager will work through this with you.***
 
 # Using Prolific
 *Go to [Prolific](www.prolific.com) and log in with your details*
