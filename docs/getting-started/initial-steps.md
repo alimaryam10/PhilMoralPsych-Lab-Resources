@@ -9,13 +9,14 @@ nav_order: 1
 
 ## Before You Begin
 1. Request access to our template study in Qualtrics:
-   - Use this link (make sure you are signed into your Qualtrics account): [Template study](https://practicalethics.fra1.qualtrics.com/jfe/form/SV_cO6I4XAlvNnQPaK)
+   - Use this link (make sure you are signed into your Qualtrics account): [Template study](https://practicalethics.eu.qualtrics.com/survey-builder/SV_cO6I4XAlvNnQPaK/edit)
 
      > 💡 **When using the template**
      >  - Check that you are accessing the template study as an editor, not as a participant
-     >  - Please do not make any edits to this template, use it as a guide
-     >  - This will give you an idea of how your survey should look, and will be a helpful reference as you go through this guide
-
+     >  - **Make a copy** of this template, rename it as per your project, and *move it into your project folder*
+     >  - Work on this copy directly.
+     >  - Please **do not** make any edits to the original template, it is only a guide to give you an idea on how your survey should look.
+    
 ## Setting Up Your Project Structure
 
 ### Step 1: Qualtrics Setup
