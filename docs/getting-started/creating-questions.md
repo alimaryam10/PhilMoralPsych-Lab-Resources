@@ -14,7 +14,7 @@ nav_order: 3
 ## Block & Question Naming Conventions
 * Your **blocks and questions** should have meaningful, short names that use camel case or snake case (Attention_Check, AttentionCheck)
    * Meaningful short names (like Attention_Check) will be helpful when you download your data, since question names will be column names in your data sheet (e.g., Excel).
-   * Do not leave spaces or use special characters (other than . or _) in the names since R will have a hard time reading these[^1].
+   * Do not leave spaces or use special characters (other than '_') in the names since R will have a hard time reading these[^1].
    * You might benefit from creating a document that indexes how each question is labeled on Qualtrics if multiple colleagues are working on the data analysis separately[^2].
  
 🚨**Recode Values**🚨
