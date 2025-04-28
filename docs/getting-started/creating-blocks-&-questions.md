@@ -5,7 +5,7 @@ parent: Getting Started
 nav_order: 3
 ---
 
-# Creating Questions
+# Creating Blocks & Questions
 
 ## 🚨 Things to Remember Throughout 🚨
 > * Group questions into meaningful blocks, considering randomization requirements later on.
