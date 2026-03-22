@@ -16,7 +16,7 @@ There are two main types of pre-registrations:
 
 ## Platforms
 The lab uses two main platforms for uploading pre-registrations. They are
-1. The Open Science Framework (OSF)
+1. [The Open Science Framework (OSF)](https://osf.io)
 * OSF is typically preferred since it's more widely used and gives you more options (e.g., more pre-registration templates, more freedom with how you organise your materials and files)
 * [This page](https://help.osf.io/article/330-welcome-to-registrations) gives step-by-step instructions for navigating the platform, creating, and uploading a pre-registration
 * Note that there are many pre-registration templates available on the OSF. We've typically used the As.Predicted template, as it is only 9 questions and relatively straightforward and well-suited to a vignette survey study. Visit the following links for some example pre-registrations Joanna has written using this template https://osf.io/pcr8j/overview, https://osf.io/r8mjh/overview.
