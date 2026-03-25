@@ -44,7 +44,7 @@ That said, pre-registering analyses is genuinely difficult. Researchers vary wid
 **1. Be precise about how your analysis method will help you answer your hypothesis.**
 Don't just name the test, explain what inferences you hope to draw from it. For example, if you include a manipulation check, specify what values would constitute a successful manipulation and how you'll handle cases where the check fails. Let's take for example, a study where I'm manipulating an AI agent to be more anthropomorphic to assess its subsequent effects on trust and include a manipulation check to assess whether participants in the anthropomorphic condition did in fact see the agent as more humanlike than those in the control condition.
 
-❌ "I will run a t-test to assess whether participants in the anthropomorphic condition found the AI agent more humanlike than participants in the control condition."
+❌ "I will run a t-test to assess whether participants in the anthropomorphic condition found the AI agent more humanlike than participants in the control condition." <br>
 ✅ "I will run an independent-samples t-test comparing humanlikeness ratings between the anthropomorphic and control conditions. I will consider the manipulation successful if participants in the anthropomorphic condition rate the agent as significantly more humanlike (p < .05), with at least a small-to-medium effect size (d ≥ 0.3), consistent with previous anthropomorphism manipulations (e.g., Złotowski et al., 2015)."
 
 **2. (Where possible) Specify anticipated effect sizes, not just significance thresholds.**
