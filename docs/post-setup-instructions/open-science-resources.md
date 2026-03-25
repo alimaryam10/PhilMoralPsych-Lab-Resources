@@ -2,7 +2,7 @@
 layout: default
 title: Some Additional Open Science Resources
 parent: Post Setup Instructions
-nav_order: 5
+nav_order: 3
 ---
 
 ## Open Science Reading Resources
