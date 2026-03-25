@@ -2,7 +2,7 @@
 layout: default
 title: Using Prolific
 parent: Post Setup Instructions
-nav_order: 2
+nav_order: 4
 ---
 
 ‼️ ***This section is for post-grad students, and others running the surveys on Prolific themselves. 
