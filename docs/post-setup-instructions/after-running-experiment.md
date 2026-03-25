@@ -2,7 +2,7 @@
 layout: default
 title: After running your Experiment
 parent: Post Setup Instructions
-nav_order: 1
+nav_order: 2
 ---
 # After Running The Experiment
 
