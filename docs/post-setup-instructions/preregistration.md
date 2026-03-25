@@ -2,7 +2,7 @@
 layout: default
 title: Preregistration
 parent: Post Setup Instructions
-nav_order: 3
+nav_order: 2
 ---
 # Why make a pre-registration?
 Pre-registrations are time-stamped, publicly documented plans that outline how a study will be conducted. They typically include information on your research questions, hypotheses, materials, methodology, and planned analyses. The point of pre-registrations is to reduce questionable research practices (QRPs) like HARKing (hypothesising after results are known) and p-hacking (testing multiple analyses until statistically significant results are found). To learn more about the why and how of pre-registrations, have a read of [this article](https://myscp.onlinelibrary.wiley.com/doi/10.1002/jcpy.1208). 
