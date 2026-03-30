@@ -22,7 +22,7 @@ Octopus is a free, UKRI-funded open science publishing platform designed to repl
 * There are no editorial gatekeepers, no word limits, no formatting requirements, and no charges to publish or read
 
 ### Gold open-access journals that publish experimental philosophy/ moral psychology
-A core value of the open science movement is democratising access to knowledge — ensuring that research isn't locked behind paywalls that only well-funded institutions can afford. Open access publishing is central to this goal. The journals listed below offer gold open access, meaning the final, peer-reviewed version of your article is made immediately and permanently free for anyone to read, download, and share directly on the publisher's website.
+A core value of the open science movement is democratising access to knowledge, which essentially means making sure that research isn't locked behind paywalls that only well-funded institutions can afford. Open access publishing is central to this goal. The journals listed below offer gold open access, meaning the final, peer-reviewed version of your article is made immediately and permanently free for anyone to read, download, and share directly on the publisher's website.
 
 * [Episteme](https://www.cambridge.org/core/journals/episteme)
 * [Ergo](https://journals.publishing.umich.edu/ergo/)
