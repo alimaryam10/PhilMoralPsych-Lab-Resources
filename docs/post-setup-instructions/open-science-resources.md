@@ -9,6 +9,8 @@ nav_order: 3
 
 **[ReproducibiliTea](https://reproducibilitea.org)**: A grassroots journal club initiative (started right here at Oxford!) that helps researchers worldwide discuss papers on replicability and open science. Check the website to see if the Oxford journal club is currently active and how to join. If not, ReproducibiliTea provides everything you need to start one yourself. Prefer reading solo? Their [OSF page](https://osf.io/3qrj6/wiki?wiki=n7yqz) hosts resources for starting a journal club as well as a curated list of suggested papers.
 
+**[Stanford Psychology Guide to Doing Open Science](https://poldrack.github.io/psych-open-science-guide/README.html)**: Very excellent, very comprehensive guide to pre-registration, code sharing, data sharing, reproducible data analysis, reproducible manuscripts, general open science culture recommendations and more! There's loads of great resources embedded in this document that I'm not going to share here, for the sake of keeping this page at a reasonable length.
+
 **Student's Guide to Open Science**: This is an excellent book by Charlotte Pennington that guides you through the purpose of open science (why it came about, why it's important) as well as the common open science practices that students can implement in their work. It's written super accesibly. If you don't have time to read the full thing - hop straight to the chapter titled "A Student's Guide to Open Science. It's 29 pages (mostly tables, don't worry) and full of excellent advice.
 
 ## Publishing
