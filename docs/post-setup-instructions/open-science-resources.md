@@ -5,21 +5,20 @@ parent: Post Setup Instructions
 nav_order: 3
 ---
 
-## Open Science Reading Resources
+## Reading
 
 **[ReproducibiliTea](https://reproducibilitea.org)**: A grassroots journal club initiative (started right here at Oxford!) that helps researchers worldwide discuss papers on replicability and open science. Check the website to see if the Oxford journal club is currently active and how to join. If not, ReproducibiliTea provides everything you need to start one yourself. Prefer reading solo? Their [OSF page](https://osf.io/3qrj6/wiki?wiki=n7yqz) hosts resources for starting a journal club as well as a curated list of suggested papers.
 
 **Student's Guide to Open Science**: This is an excellent book by Charlotte Pennington that guides you through the purpose of open science (why it came about, why it's important) as well as the common open science practices that students can implement in their work. It's written super accesibly. If you don't have time to read the full thing - hop straight to the chapter titled "A Student's Guide to Open Science. It's 29 pages (mostly tables, don't worry) and full of excellent advice.
 
-## Octopus
-
+## Publishing
+### Octopus
 Octopus is a free, UKRI-funded open science publishing platform designed to replace traditional academic journals as the primary record of research. Here are some things about Octopus that I think are cool, but you should visit [the website](https://www.octopus.ac) yourself to learn more:
 * Rather than publishing one paper, you publish small, discrete units of work — a research problem, hypothesis, method, dataset, analysis, and so on — each as its own citable record. This means a statistical specialist you brought in for the analyses, for example, gets real, visible credit for exactly what they contributed, rather than being buried in an author list or left out entirely
 * Because each unit stands alone, it's evaluated on its own merits. A rigorous method is recognised as a rigorous method, not dismissed because the findings weren't striking
 * There are no editorial gatekeepers, no word limits, no formatting requirements, and no charges to publish or read
 
-## Gold open-access journals that publish experimental philosophy/ moral psychology
-
+### Gold open-access journals that publish experimental philosophy/ moral psychology
 A core value of the open science movement is democratising access to knowledge — ensuring that research isn't locked behind paywalls that only well-funded institutions can afford. Open access publishing is central to this goal. The journals listed below offer gold open access, meaning the final, peer-reviewed version of your article is made immediately and permanently free for anyone to read, download, and share directly on the publisher's website.
 
 * [Episteme](https://www.cambridge.org/core/journals/episteme)
@@ -34,3 +33,9 @@ A core value of the open science movement is democratising access to knowledge �
 * [Brain and Behavior](https://onlinelibrary.wiley.com/journal/21579032)
 * [Psychology of Human-Animal Intergroup Relations](https://phairsociety.org/journal/)
 
+## Pre-prints
+In the case that you don't choose to publish your paper open-access (understandable since few journals are gold open-access and hybrid journals typically require a substantial fee to make your article open-access), you can still make your research freely available by uploading it on the internet as a pre-print. Here are some common platforms people use to upload pre-prints:
+
+* [PsyArXiv](https://blog.psyarxiv.com/about-psyarxiv/))
+* OSF
+* [Philosophy Research Network](https://www.ssrn.com/index.cfm/en/prn/)
