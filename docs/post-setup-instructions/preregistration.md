@@ -53,6 +53,8 @@ Where possible, include an estimated effect size (e.g., d = 0.4) alongside your 
 **3. (Where possible) Write your cleaning and analysis script before collecting data.**
 This is one of the best ways to anticipate whether a certain analysis approach makes sense for your data structure. There are two practical ways to do this. If you have pilot data, use it. If not, Qualtrics allows you to generate simulated responses (see [instructions here](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/generating-test-responses/)]), export the data, and use it to write your cleaning and analysis scripts in full.
 It's important to note that this may be impractical for timing reasons and not every analysis lends itself to this approach — for more complex models such as mixed-effects models, pre-specifying every parameter may be impractical since you may run into convergence issues later which will require you to drop certain terms. In those cases, try to find pre-registrations that others have written using similar analysis methods. 
+
+**For more on how to (properly) pre-register your study, read [this excellent article](http://datacolada.org/64)**
   
 ## 💡 Tips
 * When preregistering a sample size, consider adding a 10-15% buffer in anticipation of exclusions to meet your sample size.
