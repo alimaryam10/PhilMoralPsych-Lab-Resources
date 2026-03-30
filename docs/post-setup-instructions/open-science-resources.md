@@ -22,15 +22,15 @@ Octopus is a free, UKRI-funded open science publishing platform designed to repl
 
 A core value of the open science movement is democratising access to knowledge — ensuring that research isn't locked behind paywalls that only well-funded institutions can afford. Open access publishing is central to this goal. The journals listed below offer gold open access, meaning the final, peer-reviewed version of your article is made immediately and permanently free for anyone to read, download, and share directly on the publisher's website.
 
-*Episteme
-*Ergo
-*Experimental Philosophy
-*Frontiers in Psychology
-*PLoS One
-*Scientific Reports
-*PNAS Nexus
-*Judgement and Decision-Making
-*Philosopher's Imprint
-*Brain and Behavior
-*Psychology of Human-Animal Intergroup Relations
+* [Episteme](https://www.cambridge.org/core/journals/episteme)
+* [Ergo](https://journals.publishing.umich.edu/ergo/)
+* [Experimental Philosophy](https://journals.ub.uni-koeln.de/index.php/xphi)
+* [Frontiers in Psychology](https://www.frontiersin.org/journals/psychology)
+* [PLoS One](https://journals.plos.org/plosone/)
+* [Scientific Reports](https://www.nature.com/srep/)
+* [PNAS Nexus](https://academic.oup.com/pnasnexus)
+* [Judgement and Decision-Making](https://www.cambridge.org/core/journals/judgment-and-decision-making/information/about-this-journal)
+* [Philosopher's Imprint](https://journals.publishing.umich.edu/phimp/)
+* [Brain and Behavior](https://onlinelibrary.wiley.com/journal/21579032)
+* [Psychology of Human-Animal Intergroup Relations](https://phairsociety.org/journal/)
 
