@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Some Additional Open Science Resources
+title: Additional Open Science Resources
 parent: Post Setup Instructions
 nav_order: 3
 ---
@@ -39,6 +39,6 @@ A core value of the open science movement is democratising access to knowledge, 
 ### Pre-prints
 In the case that you don't choose to publish your paper open-access (understandable since few journals are gold open-access and hybrid journals typically require a substantial fee to make your article open-access), you can still make your research freely available by uploading it on the internet as a pre-print. Here are some common platforms people use to upload pre-prints:
 
-* [PsyArXiv](https://blog.psyarxiv.com/about-psyarxiv/))
+* [PsyArXiv](https://blog.psyarxiv.com/about-psyarxiv/)
 * OSF
 * [Philosophy Research Network](https://www.ssrn.com/index.cfm/en/prn/)
