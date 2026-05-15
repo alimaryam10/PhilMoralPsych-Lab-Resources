@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guide to Cross-Cultural Research
-nav_order: 10
+nav_order: 4
 has_children: true
 ---
 
