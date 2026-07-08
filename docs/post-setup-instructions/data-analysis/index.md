@@ -1,9 +1,14 @@
 ---
-   title: Coding Resources
-   nav_order: 3
-   has_children: true
-   ---
+layout: default
+title: Coding Resources
+nav_order: 3
+has_children: true
+---
 
-   # Coding Resources
+# Getting Started with R 
 
-   Resources for learning R, RStudio setup, and common analysis workflows used in the lab.
+This section covers the basics of using R and RStudio for data analysis. You'll find resources here on how to:
+- Navigate R and RStudio
+- Clean your data
+- Conduct multilevel modelling and interpret outputs
+- Make some cute plots
