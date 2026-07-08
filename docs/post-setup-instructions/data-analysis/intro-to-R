@@ -8,4 +8,11 @@ Welcome to your R journey!
 
 # What is R and RStudio?
 
-R is a programming language purpose-built for statistical analysis. RStudio is an Integrated Development Environment - essentially, a wrapper designed to give you a more user-friendly workspace. 
+R is a programming language purpose-built for statistical analysis. RStudio is an Integrated Development Environment for R - essentially, it's a wrapper designed to give you a more user-friendly workspace compared to the R terminal, which is pretty terrible to work with.
+
+# How can I download these applications onto my computer?
+
+Follow [these instructions](https://rstudio-education.github.io/hopr/starting.html) to download both R and RStudio on your laptop.
+
+
+
