@@ -3,3 +3,9 @@ title: Intro to R
 parent: data-analysis
 nav_order: 1
 ---
+
+Welcome to your R journey!
+
+# What is R and RStudio?
+
+R is a programming language purpose-built for statistical analysis. RStudio is an Integrated Development Environment - essentially, a wrapper designed to give you a more user-friendly workspace. 
