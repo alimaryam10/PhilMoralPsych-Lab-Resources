@@ -64,6 +64,6 @@ When you write an R Markdown file (`.Rmd`), you're combining two things in one d
 
 This is especially useful for:
 
-* **Reproducibility** — your analysis and your results write-up live in the same file, so anyone (including future-you) can see exactly which code produced which result. No more copy-pasting numbers from the console into a Word doc and losing track of where they came from.
-* **Clean presentation** — the final knitted document hides your messy code by default (unless you choose to show it) and presents a tidy, readable report with a table of contents, numbered sections, and formatted output.
+* **Reproducibility** — your analysis and your results write-up live in the same file, so anyone (including future-you) can see exactly which code produced which result. This is dependent on your annotating and explaining your code and method well, of course.
+* **Clean presentation** — you can build a clean results summary in this document because you can choose to hide code that's not necessary for interpretation (e.g., code loading in libraries/ data cleaning code), and keep code that is necessary for interpretation (e.g., model outputs, model specifications). This allows you to create a tidy, readable report with a table of contents, numbered sections, and formatted output.
 * **Inline reporting** — you can embed R code directly into your sentences (e.g., "the mean age was `` `r mean(age)` ``"), so your reported statistics are always pulled live from your actual data rather than typed in manually and prone to error.
