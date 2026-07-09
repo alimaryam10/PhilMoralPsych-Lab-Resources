@@ -44,8 +44,9 @@ This folder will be your working directory. Give it an intuitive name (e.g., "Di
 
 1. Click the first button in the top-left toolbar (a white page logo with a green plus sign in the corner).
 2. Select **R Markdown...** from the dropdown menu. Many people code in a basic R Script, but we prefer R Markdown, since it lets you "chunk" your code and produce a nicely knitted HTML file with your results explained and summarised alongside the code.
-3. Delete the default content on the page and edit the YAML header as needed.
-4. The YAML header sets the "settings" for the document. See an example of how we've set things up in the past:
+3. Delete the default content on the page and edit the YAML header as needed (details below)
+
+The YAML header sets the "settings" for your knitted document. See an example of how we've set things up in the past:
 
    <img width="213" height="168" alt="Screenshot 2026-07-09 at 14 58 50" src="https://github.com/user-attachments/assets/e437a16c-e8ca-4fea-b41d-fef9eeb3032e" />
 
