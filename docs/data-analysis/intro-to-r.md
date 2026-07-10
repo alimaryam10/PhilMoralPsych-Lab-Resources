@@ -13,6 +13,17 @@ R is a free, open-source programming language purpose-built for statistical anal
 
 Visit [this page](https://rstudio-education.github.io/hopr/starting.html) for instructions on downloading both R and RStudio.
 
+# What is a knitted document, and why make one?
+
+When you write an R Markdown file (`.Rmd`), you're combining two things in one document: your write-up (in plain text/Markdown) and your R code (in "chunks"). **Knitting** is the process of running that file through R — it executes all your code chunks, captures the output (tables, plots, statistics), and weaves it together with your text into a single, polished output file (HTML, PDF, or Word).
+
+This is especially useful for:
+
+* **Reproducibility** — your analysis and your results write-up live in the same file, so anyone (including future-you) can see exactly which code produced which result. This is dependent on your annotating and explaining your code and method well, of course.
+* **Clean presentation** — you can build a clean results summary in this document because you can choose to hide code that's not necessary for interpretation (e.g., code loading in libraries/ data cleaning code), and keep code that is necessary for interpretation (e.g., model outputs, model specifications). This allows you to create a tidy, readable report with a table of contents, numbered sections, and formatted output.
+* **Inline reporting** — you can embed R code directly into your sentences (e.g., "the mean age was `` `r mean(age)` ``"), so your reported statistics are always pulled live from your actual data rather than typed in manually and prone to error.
+
+
 # Setting up a working directory
 
 A working directory is the folder you set as the default location for any files you read into R or save out of R. Setting one up properly helps keep your data, scripts, and plots organised in one place. Follow the steps below to get set up.
@@ -58,12 +69,21 @@ The YAML header sets the "settings" for your knitted document. See an example of
    * `number_sections: true` — automatically numbers your headers (1, 1.1, 1.2, 2, etc.), which is handy for referencing specific sections later
    * `theme: readable` — sets the visual styling of the knitted page; "readable" is one of several built-in Bootstrap themes (others include `cerulean`, `journal`, `flatly`, etc.) that control fonts, colours, and spacing
 
-# What is a knitted document, and why make one?
+## Step 5: Add a code chunk
 
-When you write an R Markdown file (`.Rmd`), you're combining two things in one document: your write-up (in plain text/Markdown) and your R code (in "chunks"). **Knitting** is the process of running that file through R — it executes all your code chunks, captures the output (tables, plots, statistics), and weaves it together with your text into a single, polished output file (HTML, PDF, or Word).
+Code chunks are where your actual R code lives. Anything inside a chunk gets run when you knit the document, and — depending on how you set the chunk's options — its code and/or output can be shown or hidden in the final knitted file.
 
-This is especially useful for:
+1. Click into your `.Rmd` file below the YAML header, where you want your code to begin.
+2. In the top-left panel's toolbar, click the green **Insert** button (looks like a green square with a "C" and a plus sign) and select **R** from the dropdown.
+3. An empty chunk will appear, bounded by three backticks at the top and bottom:
 
-* **Reproducibility** — your analysis and your results write-up live in the same file, so anyone (including future-you) can see exactly which code produced which result. This is dependent on your annotating and explaining your code and method well, of course.
-* **Clean presentation** — you can build a clean results summary in this document because you can choose to hide code that's not necessary for interpretation (e.g., code loading in libraries/ data cleaning code), and keep code that is necessary for interpretation (e.g., model outputs, model specifications). This allows you to create a tidy, readable report with a table of contents, numbered sections, and formatted output.
-* **Inline reporting** — you can embed R code directly into your sentences (e.g., "the mean age was `` `r mean(age)` ``"), so your reported statistics are always pulled live from your actual data rather than typed in manually and prone to error.
+   <img width="753" height="254" alt="Screenshot 2026-07-10 at 10 40 42" src="https://github.com/user-attachments/assets/0b605a15-a457-44f8-95a4-5e2d8fe1e981" />
+
+4. Write your R code inside the chunk.
+5. Set the chunk's options in the curly braces at the top (e.g. `` {r, echo = FALSE} ``) depending on what you want visible in the knitted document:
+   * `include = FALSE` — hides **both** the code and its output
+   * `echo = FALSE` — hides the code but **shows** the output
+   * `warning = FALSE` — hides any warnings the code produces, while still showing the output
+
+For example, a chunk that runs your data-cleaning code silently (no code, no output, no warnings) would start with `` {r, include = FALSE, warning = FALSE} ``.
+
