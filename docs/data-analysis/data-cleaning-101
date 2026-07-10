@@ -1,1 +1,18 @@
+---
+layout: default
+title: Data Cleaning 101
+parent: Data Analysis Using R
+nav_order: 2
+---
 
+This document will take you through a sample cleaning script, explain what the code does and how you can adapt it for your own analyses.
+
+# Basics 
+
+* To add a chunk of code to your .rmd file, navigate 
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE) 
+```
+
+# This code sets your code chunks to echo = FALSE by default (i.e., unless specified otherwise, your code will
