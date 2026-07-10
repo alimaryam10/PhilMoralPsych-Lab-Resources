@@ -2,6 +2,7 @@
 layout: default
 title: Intro to R
 parent: data-analysis
+has_children: true
 nav_order: 1
 ---
 
