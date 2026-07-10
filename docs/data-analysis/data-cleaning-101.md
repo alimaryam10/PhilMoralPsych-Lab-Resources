@@ -11,7 +11,9 @@ nav_order: 2
 
 - [ ] Preview/test responses have been removed
 - [ ] Participants who were ineligible (because they did not consent or were not old enough to participate) have been removed
+
   > Note: Normally, we program our surveys to direct participants to the end if they are not eligible, and Prolific does not allow participation if you are not 18, so there's little manual work here. But it's worth checking, just in case this wasn't how your study was conducted.
+
 - [ ] Incomplete/partial responses removed (according to what you deemed as "enough" responses in your pre-reg)
 - [ ] Duplicate participants removed (e.g., by Prolific ID — people occasionally complete a study twice)
 - [ ] Data has been anonymised, anonymised data has been written into a .csv file
