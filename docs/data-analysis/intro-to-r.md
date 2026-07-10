@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Intro to R
-parent: data-analysis
+parent: Data Analysis Using R
 nav_order: 1
 ---
 
