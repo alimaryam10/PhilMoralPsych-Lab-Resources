@@ -7,6 +7,8 @@ nav_order: 2
 
 # Sample Cleaning Script
 
+[Here](https://osf.io/h4eqp/overview?view_only=6ec18e87b2904b5ebcbe6742960c413d) is a sample cleaning script. Note, it is not exhaustive, and is only meant to be an example of some cleaning code that we commonly use for our Qualtrics-exported survey data. Make sure you go through the checklist below carefully to figure out what to add to this cleaning script if you choose to adapt it for your own analyses. 
+
 # Data cleaning checklist
 
 - [ ] Preview/test responses have been removed
