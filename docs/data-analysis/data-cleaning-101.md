@@ -7,7 +7,11 @@ nav_order: 2
 
 # Sample Cleaning Script
 
-[Here](https://osf.io/h4eqp/overview?view_only=6ec18e87b2904b5ebcbe6742960c413d) is a sample cleaning script. Note, it is not exhaustive, and is only meant to be an example of some cleaning code that we commonly use for our Qualtrics-exported survey data. Make sure you go through the checklist below carefully to figure out what to add to this cleaning script if you choose to adapt it for your own analyses. 
+We've created two versions of a sample data cleaning script, accessible [here](https://osf.io/h4eqp/overview?view_only=6ec18e87b2904b5ebcbe6742960c413d):
+* data_cleaning_template.rmd includes detailed instructions and annotations to help you adapt the script for your own project.
+* data_cleaning_template_no_annotations.rmd contains the same cleaning code without instructions or comments, making it better suited for users who are already comfortable with R and want to work with a less visually cluttered script.
+
+These scripts are intended as examples of the data cleaning steps we commonly use for Qualtrics-exported survey data. If you adapt them for your own analyses, be sure to review the checklist below *carefully* to identify any additional cleaning steps your dataset may require.
 
 # Data cleaning checklist
 
