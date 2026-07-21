@@ -141,20 +141,5 @@ emtrends(mdl, pairwise ~ CategoricalIV, var = "NumericIV")
 
 The first call tells you whether the slope is significantly different from zero within each group. The second tells you whether the slopes significantly differ *from each other* — this is the direct test of the interaction itself, and is usually the more informative of the two for interpreting *why* the interaction is significant.
 
-### Two numeric variables
-
-This is the trickiest case, since there's no natural "level" to condition on. The standard approach is to estimate the slope of one predictor at representative values of the other — typically ±1 SD from the mean, following convention:
-
-```r
-# Create representative values of the moderator (±1 SD)
-sd_val <- sd(df$NumericIV2, na.rm = TRUE)
-mean_val <- mean(df$NumericIV2, na.rm = TRUE)
-
-emtrends(mdl, ~ NumericIV2, var = "NumericIV1",
-         at = list(NumericIV2 = c(mean_val - sd_val, mean_val, mean_val + sd_val)))
-```
-
-This gives you the slope of `NumericIV1` on the DV at low, average, and high levels of `NumericIV2` — the classic "simple slopes" approach to visualizing a continuous-by-continuous interaction. 
-
 
 
