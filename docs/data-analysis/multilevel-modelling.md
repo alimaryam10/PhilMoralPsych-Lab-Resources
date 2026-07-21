@@ -15,7 +15,7 @@ This [Datacamp guide](https://www.datacamp.com/tutorial/multilevel-modeling) is 
 Assuming your data is cleaned, there are some additional steps to take before fitting your models. Make sure:
 
 * If you have categorical variables, you have selected a meaningful reference level for them (e.g., your control condition is coded as the reference level, 0)
-* You have standardised your numeric variables, where it makes sense to do so (e.g., when you want to compare the relative importance of predictors measured on different scales)
+* You have standardised your numeric variables, where it makes sense to do so (e.g., when you want to compare the relative importance of predictors measured on different scales). 
 
 ## Step 2: Loading the necessary packages
 
@@ -57,10 +57,10 @@ Note that `(1 + Emotion | Participant)` fits both a random intercept *and* a ran
 
 To decide on the random effects structure to fit, follow these steps:
 
-1. **Fit your maximal model** — the model with the most complex random effects structure that is theoretically defensible (e.g., including both random slopes and random intercepts).
-2. **Check convergence.** If the model fails to converge, or gives a singular fit (both flagged by a warning in R), simplify the random effects structure iteratively until it converges.
-3. **Compare model fit.** Once you have a converging model, compare it against a simpler alternative (e.g., random intercepts only) using a likelihood ratio test (LRT), AIC, and BIC, to assess which provides the better fit.
-4. **Retain the best-fitting model** that still converges.
+1. Fit your maximal model, i.e., the model with the most complex random effects structure that is theoretically defensible (e.g., including both random slopes and random intercepts).
+2. If the model fails to converge, or gives a singular fit (both flagged by a warning in R), simplify the random effects structure iteratively until it converges.
+3. Once you have a converging model, compare it against a simpler alternative (e.g., random intercepts only) using a likelihood ratio test (LRT), AIC, and BIC, to assess which provides the better fit.
+4. Retain the best-fitting model.
 
 ## Step 4: Interpret the output
 
@@ -105,7 +105,7 @@ Covariate      0.98    0.98     1 198.60   0.708 0.40120
 
 1. **Check interaction terms first** (e.g. `IV1:IV2`). If significant, be cautious interpreting the main effects of `IV1` and `IV2` in isolation, since the effect of one likely depends on the level of the other. Follow up with `emmeans` for simple effects or pairwise contrasts.
 2. **If no interaction is significant**, the main effect rows are more directly interpretable as-is.
-3. **For a multi-level factor**, the `anova()` row gives one omnibus test — "does Emotion matter overall?" (NumDF = levels − 1). A significant result tells you *some* difference exists among conditions, but not *which* ones differ — that's where `emmeans` with pairwise comparisons comes in as the natural next step.
+3. **For a multi-level factor**, the `anova()` row gives one omnibus test. A significant result tells you *some* difference exists among conditions, but not *which* ones differ — that's where `emmeans` with pairwise comparisons comes in as the natural next step.
 
 ## Step 5: Decomposing interactions
 
