@@ -62,15 +62,6 @@ To decide on the random effects structure to fit, follow these steps:
 3. **Compare model fit.** Once you have a converging model, compare it against a simpler alternative (e.g., random intercepts only) using a likelihood ratio test (LRT), AIC, and BIC, to assess which provides the better fit.
 4. **Retain the best-fitting model** that still converges.
 
-```mermaid
-flowchart TD
-    A["Fit maximal model<br><small>most complex justified structure</small>"] --> B{"Converges?<br><small>no singular fit</small>"}
-    B -- No --> C["Simplify model<br><small>remove complex term</small>"]
-    C --> A
-    B -- Yes --> D["Compare fit to simpler model<br><small>LRT, AIC, BIC</small>"]
-    D --> E["Retain best-fitting model"]
-```
-
 ## Step 4: Interpret the output
 
 To read a model's full output, people typically run:
@@ -104,13 +95,11 @@ Covariate      0.98    0.98     1 198.60   0.708 0.40120
 
 **Column guide:**
 
-* **Sum Sq / Mean Sq** — sums of squares for that term. Rarely reported directly; used to compute the F value.
-* **NumDF** — numerator degrees of freedom (the number of parameters used to test the term — 1 for a simple main effect, more for a multi-level factor like Emotion).
-* **DenDF** — denominator degrees of freedom, calculated via Satterthwaite's approximation. This is what `lmerTest` adds — without it, `anova()` on an `lmer` model won't return a DenDF or p-value at all. DenDF can differ *between rows*, reflecting how much information is available to estimate each specific effect. A non-integer DenDF (e.g. 45.20) is normal and expected — it's not a bug, and no rounding is needed before interpreting the p-value.
-* **F value** — the test statistic for that term.
-* **Pr(>F)** — the p-value.
-
-**What "Type III" means:** each effect is tested controlling for all other effects in the model, including interactions. This matters especially when interpreting main effects alongside an interaction — the main effect p-value reflects the effect *at the reference/average level* of the other predictor, not a marginal effect that ignores the interaction. If you have unordered factors, make sure your contrasts are sensible (`options(contrasts = c("contr.sum", "contr.poly"))` is standard for Type III tests) — otherwise Type III results can be misleading.
+* **Sum Sq / Mean Sq**:sums of squares for that term. Rarely reported directly; used to compute the F value.
+* **NumDF**: numerator degrees of freedom (the number of parameters used to test the term — 1 for a simple main effect, more for a multi-level factor).
+* **DenDF**: denominator degrees of freedom, calculated via Satterthwaite's approximation. 
+* **F value**: the test statistic for that term.
+* **Pr(>F)**: the p-value.
 
 **How to read it, practically:**
 
@@ -120,7 +109,52 @@ Covariate      0.98    0.98     1 198.60   0.708 0.40120
 
 ## Step 5: Decomposing interactions
 
+A significant interaction tells you that the effect of one predictor depends on the level of another, but not what that pattern actually looks like. Decomposing it means running follow-up comparisons to see where the differences lie. The approach differs depending on whether the interacting variables are categorical or numeric.
 
+### Two categorical variables
+
+Use `emmeans` to get estimated marginal means for each combination of levels, then run pairwise comparisons within one variable at each level of the other:
+
+```r
+# Estimated marginal means for each combination of levels
+emmeans(mdl, ~ IV1 * IV2)
+
+# Pairwise comparisons of IV1, separately at each level of IV2
+emmeans(mdl, pairwise ~ IV1 | IV2)
+```
+
+The `pairwise ~ IV1 | IV2` syntax reads as "compare levels of IV1, within each level of IV2" — these are your simple effects. Which variable you condition on (`| IV2` vs `| IV1`) should follow your theoretical question: pick whichever framing answers what you actually want to know.
+
+Because this involves multiple comparisons, `emmeans` applies a p-value adjustment by default (Tukey's method) — check `?summary.emmGrid` if you want to change this (e.g., to `"bonferroni"` or `"none"`).
+
+### A categorical variable and a numeric variable
+
+Here, the interaction means the *slope* of the numeric predictor differs across levels of the categorical variable. Decompose this with `emtrends`, which estimates that slope at each level:
+
+```r
+# Estimated slope of the numeric predictor, at each level of the categorical variable
+emtrends(mdl, ~ CategoricalIV, var = "NumericIV")
+
+# Pairwise comparison of those slopes
+emtrends(mdl, pairwise ~ CategoricalIV, var = "NumericIV")
+```
+
+The first call tells you whether the slope is significantly different from zero within each group. The second tells you whether the slopes significantly differ *from each other* — this is the direct test of the interaction itself, and is usually the more informative of the two for interpreting *why* the interaction is significant.
+
+### Two numeric variables
+
+This is the trickiest case, since there's no natural "level" to condition on. The standard approach is to estimate the slope of one predictor at representative values of the other — typically ±1 SD from the mean, following convention:
+
+```r
+# Create representative values of the moderator (±1 SD)
+sd_val <- sd(df$NumericIV2, na.rm = TRUE)
+mean_val <- mean(df$NumericIV2, na.rm = TRUE)
+
+emtrends(mdl, ~ NumericIV2, var = "NumericIV1",
+         at = list(NumericIV2 = c(mean_val - sd_val, mean_val, mean_val + sd_val)))
+```
+
+This gives you the slope of `NumericIV1` on the DV at low, average, and high levels of `NumericIV2` — the classic "simple slopes" approach to visualizing a continuous-by-continuous interaction. 
 
 
 
