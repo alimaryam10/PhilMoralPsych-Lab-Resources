@@ -15,6 +15,10 @@ These scripts are intended as examples of the data cleaning steps we commonly us
 
 # Data cleaning checklist
 
+- [ ] You have set.seed( ) at the beginning of your cleaning script.
+
+  > Note: This ensures that if your cleaning code contains any processes that require random processes (e.g., generating random integers as anonymous Participant IDs), your script will return the same, reproducible results each time. If you're unsure if your script uses any random processes, set a seed anyways, since it's otherwise harmless.
+ 
 - [ ] Preview/test responses have been removed
 - [ ] Participants who were ineligible (because they did not consent or were not old enough to participate) have been removed
 
@@ -26,14 +30,29 @@ These scripts are intended as examples of the data cleaning steps we commonly us
 
 - [ ] Duplicate participants removed (e.g., by Prolific ID — people occasionally complete a study twice)
 
-  > Note: Normally, we would select "Prevent Multiple Submissions" on Prolific, which would avoid this issue. However, if you collected data through social media, this is worth checking.
+  > Note: Normally, we would select "Prevent Multiple Submissions" on Prolific, which would avoid this issue. However, if you collected data through social media sampling, this is worth checking.
 
 - [ ] Data has been anonymised, anonymised raw data has been written into a .csv file
+
+> Note: Anonymisation entails 1) replacing your ProlificID column with random ParticipantIDs and 2) ensuring comments in open-text responses do not contain any identifying information
+
 - [ ] Qualtrics identifying/metadata columns (e.g., "LocationLatitude", "LocationLongitude") have been removed
 - [ ] Column headers renamed to be interpretable
 - [ ] 'Prefer not to say' responses coded as NAs
 - [ ] Variables have been appropriately coded — categorical variables as factors, numeric variables as numeric
 - [ ] Participants who failed attention checks have been removed
+- [ ] Participants who failed bot checks have been removed
+
+> Note: When you implement a Captcha question in Qualtrics, they don't actually allow the participant to proceed in the survey unless they complete it successfully, so this does not require checking. However, if you've implemented other bot checks (e.g., authenticity checks on Prolific, enabling bot checks in Qualtrics), you should remove participants who are shown to be highly likely to be bots. 
+
 - [ ] Sample size before and after exclusions recorded, along with how many exclusions can be attributed to each step
 - [ ] Any reverse-coding of items that is required has been done
+- [ ] Pivot clean data to long format (typically required for most analyses)
 - [ ] Clean data has been written into a .csv file
+
+## Before sharing your cleaning code:
+- [ ] Ensure your code script itself does not contain identifying information (e.g., filtering out participants by ProlificID)
+- [ ] You have the following files
+  > Anonymised, minimally processed raw data file
+  > Anonymised, cleaned data (you can choose to share a wide and long version separately, if you want to be extra nice)
+  > Cleaning script .rmd
